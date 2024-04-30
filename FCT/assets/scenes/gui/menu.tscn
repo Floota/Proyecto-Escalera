@@ -1,0 +1,66 @@
+[gd_scene load_steps=4 format=3 uid="uid://babuyil1hvdo3"]
+
+[ext_resource type="Theme" uid="uid://dr7cctdf03t7a" path="res://assets/scenes/gui/theme_gui.theme" id="1_fmefa"]
+[ext_resource type="Script" path="res://scripts/Menu.gd" id="2_yt4dj"]
+[ext_resource type="Texture2D" uid="uid://bumog71f1hktd" path="res://assets/textures/_98358988-3f21-40de-9c47-fc3abcc45370 (2).jpg" id="3_jx2gf"]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+theme = ExtResource("1_fmefa")
+script = ExtResource("2_yt4dj")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+offset_right = 1155.0
+offset_bottom = 1024.0
+texture = ExtResource("3_jx2gf")
+stretch_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Botones" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.493
+anchor_top = 0.479
+anchor_right = 0.493
+anchor_bottom = 0.479
+offset_left = -205.018
+offset_top = -38.96
+offset_right = 40.982
+offset_bottom = 136.04
+grow_horizontal = 2
+grow_vertical = 2
+rotation = -0.225412
+
+[node name="Iniciar" type="Button" parent="Botones"]
+layout_mode = 2
+theme = ExtResource("1_fmefa")
+text = "INICIAR"
+flat = true
+
+[node name="Salir" type="Button" parent="Botones"]
+layout_mode = 2
+text = "SALIR"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+
+[connection signal="pressed" from="Botones/Iniciar" to="." method="_on_iniciar_pressed"]
+[connection signal="pressed" from="Botones/Salir" to="." method="_on_salir_pressed"]
