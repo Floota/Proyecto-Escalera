@@ -1,0 +1,110 @@
+[gd_scene load_steps=12 format=3 uid="uid://dscskf7pnqab"]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_m1cte"]
+[ext_resource type="Texture2D" uid="uid://leppwbw5542q" path="res://assets/textures/TopoJugador.png" id="2_jbff1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oroqx"]
+atlas = ExtResource("2_jbff1")
+region = Rect2(0, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vxsg6"]
+atlas = ExtResource("2_jbff1")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vxqkk"]
+atlas = ExtResource("2_jbff1")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ny0pk"]
+atlas = ExtResource("2_jbff1")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l1m2t"]
+atlas = ExtResource("2_jbff1")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_morb8"]
+atlas = ExtResource("2_jbff1")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8j4ps"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oroqx")
+}],
+"loop": true,
+"name": &"Death",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vxsg6")
+}],
+"loop": true,
+"name": &"Fall",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vxqkk")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ny0pk")
+}],
+"loop": true,
+"name": &"Jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l1m2t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_morb8")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5grvb"]
+size = Vector2(8, 14)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jvhcf"]
+size = Vector2(10, 5.5)
+
+[node name="Player" type="CharacterBody2D" groups=["player"]]
+position = Vector2(-6, 4.5)
+collision_layer = 2
+collision_mask = 13
+script = ExtResource("1_m1cte")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(14, -16)
+sprite_frames = SubResource("SpriteFrames_8j4ps")
+animation = &"Idle"
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(13, -15)
+shape = SubResource("RectangleShape2D_5grvb")
+
+[node name="HitPoint" type="Area2D" parent="."]
+position = Vector2(1, 1)
+collision_layer = 2
+collision_mask = 4
+monitorable = false
+
+[node name="Collision" type="CollisionShape2D" parent="HitPoint"]
+position = Vector2(12, -11.25)
+shape = SubResource("RectangleShape2D_jvhcf")
+
+[node name="CoyoteJumpTimer" type="Timer" parent="."]
+
+[connection signal="animation_finished" from="Sprite" to="." method="_on_sprite_animation_finished"]
+[connection signal="body_entered" from="HitPoint" to="." method="_on_hit_point_body_entered"]
