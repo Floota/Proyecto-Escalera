@@ -1,0 +1,97 @@
+[gd_scene load_steps=12 format=3 uid="uid://ctg3fln1iov3r"]
+
+[ext_resource type="Script" path="res://scripts/EBasico.gd" id="1_wssep"]
+[ext_resource type="Texture2D" uid="uid://0sustabba1c7" path="res://assets/textures/EnemiesHot.png" id="3_ko2sl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vktui"]
+atlas = ExtResource("3_ko2sl")
+region = Rect2(208, 177, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rllqm"]
+atlas = ExtResource("3_ko2sl")
+region = Rect2(192, 177, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hwq1d"]
+atlas = ExtResource("3_ko2sl")
+region = Rect2(48, 177, 15, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hk5xu"]
+atlas = ExtResource("3_ko2sl")
+region = Rect2(64, 177, 15, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wvtxu"]
+atlas = ExtResource("3_ko2sl")
+region = Rect2(80, 177, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_whmc4"]
+atlas = ExtResource("3_ko2sl")
+region = Rect2(96, 177, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_lolq1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vktui")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rllqm")
+}],
+"loop": false,
+"name": &"death",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hwq1d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hk5xu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wvtxu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_whmc4")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4mv4n"]
+size = Vector2(10.5, 5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cgbhx"]
+size = Vector2(10, 3.75)
+
+[node name="EBasicox2" type="CharacterBody2D" groups=["Enemy"]]
+collision_layer = 4
+collision_mask = 3
+script = ExtResource("1_wssep")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(4, 3)
+sprite_frames = SubResource("SpriteFrames_lolq1")
+animation = &"walk"
+autoplay = "walk"
+
+[node name="RayCast2D" type="RayCast2D" parent="AnimatedSprite2D"]
+position = Vector2(4, 6)
+target_position = Vector2(0, 4)
+
+[node name="Area2D" type="Area2D" parent="AnimatedSprite2D"]
+position = Vector2(4, 13)
+collision_layer = 4
+collision_mask = 2
+
+[node name="HitBox" type="CollisionShape2D" parent="AnimatedSprite2D/Area2D"]
+position = Vector2(-4, -9)
+shape = SubResource("RectangleShape2D_4mv4n")
+debug_color = Color(0.929412, 0.243137, 0.270588, 0.419608)
+
+[node name="HurtBox" type="CollisionShape2D" parent="."]
+position = Vector2(4, 6.875)
+shape = SubResource("RectangleShape2D_cgbhx")
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="body_entered" from="AnimatedSprite2D/Area2D" to="." method="_on_area_2d_body_entered"]

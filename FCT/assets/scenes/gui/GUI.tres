@@ -1,0 +1,8 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://exqkmve4kjmx"]
+
+[ext_resource type="FontFile" uid="uid://tlhpf4teewt6" path="res://assets/scenes/gui/PixeloidMono.otf" id="1_nie7r"]
+
+[resource]
+default_font = ExtResource("1_nie7r")
+default_font_size = 9
+Label/font_sizes/font_size = 9

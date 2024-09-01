@@ -1,0 +1,43 @@
+[gd_scene load_steps=7 format=3 uid="uid://d0m73sc6gp6ec"]
+
+[ext_resource type="Script" path="res://scripts/Gus.gd" id="1_8jvux"]
+[ext_resource type="Texture2D" uid="uid://1sglmgjw0upq" path="res://assets/textures/npc1.png" id="2_k8uip"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gxcjc"]
+atlas = ExtResource("2_k8uip")
+region = Rect2(0, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nbboj"]
+atlas = ExtResource("2_k8uip")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2ydtn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gxcjc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nbboj")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1fumf"]
+size = Vector2(9, 13)
+
+[node name="Gus" type="CharacterBody2D"]
+collision_layer = 16
+collision_mask = 2
+script = ExtResource("1_8jvux")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_2ydtn")
+animation = &"idle"
+autoplay = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 0.5)
+shape = SubResource("RectangleShape2D_1fumf")

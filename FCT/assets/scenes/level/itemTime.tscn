@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://dvs4lqsvt6gn0"]
+
+[ext_resource type="Script" path="res://scripts/itemTime.gd" id="1_ca54x"]
+[ext_resource type="Texture2D" uid="uid://lw2jg0xbcxt8" path="res://assets/textures/IT.png" id="2_ea2w2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ufpho"]
+size = Vector2(4.85206, 16.0142)
+
+[node name="ItemTime" type="Area2D"]
+collision_mask = 3
+script = ExtResource("1_ca54x")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+rotation = -0.598648
+texture = ExtResource("2_ea2w2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.033659, 1.44327)
+rotation = 1.57906
+shape = SubResource("RectangleShape2D_ufpho")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

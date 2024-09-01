@@ -1,0 +1,115 @@
+[gd_scene load_steps=13 format=3 uid="uid://btvenhfnkmpvo"]
+
+[ext_resource type="Script" path="res://scripts/EProyectil.gd" id="1_kudu8"]
+[ext_resource type="PackedScene" uid="uid://dgpp7qyr0kk7w" path="res://assets/scenes/enemies/bullet.tscn" id="2_sruou"]
+[ext_resource type="Texture2D" uid="uid://bynfv1ax2k7e2" path="res://assets/textures/Enemies.png" id="2_yf5yf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4xlvo"]
+atlas = ExtResource("2_yf5yf")
+region = Rect2(208, 192, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jdt0s"]
+atlas = ExtResource("2_yf5yf")
+region = Rect2(192, 192, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ye377"]
+atlas = ExtResource("2_yf5yf")
+region = Rect2(48, 195, 16, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_boxdd"]
+atlas = ExtResource("2_yf5yf")
+region = Rect2(64, 195, 16, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fboom"]
+atlas = ExtResource("2_yf5yf")
+region = Rect2(80, 195, 16, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lq5by"]
+atlas = ExtResource("2_yf5yf")
+region = Rect2(96, 195, 16, 13)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2byne"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4xlvo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jdt0s")
+}],
+"loop": true,
+"name": &"death",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ye377")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_boxdd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fboom")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lq5by")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ojmo0"]
+size = Vector2(9, 5.2)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v4i0b"]
+size = Vector2(7, 2)
+
+[node name="EBullet" type="CharacterBody2D" groups=["Enemy"]]
+position = Vector2(1, -6)
+collision_layer = 4
+collision_mask = 3
+script = ExtResource("1_kudu8")
+Bullet = ExtResource("2_sruou")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -0.25)
+scale = Vector2(1, 0.961538)
+sprite_frames = SubResource("SpriteFrames_2byne")
+animation = &"walk"
+
+[node name="RayCast2D" type="RayCast2D" parent="AnimatedSprite2D"]
+position = Vector2(2, 4.42)
+target_position = Vector2(0, 6)
+
+[node name="AreaDamage" type="Area2D" parent="AnimatedSprite2D"]
+collision_layer = 4
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/AreaDamage"]
+position = Vector2(0.5, 2.86)
+shape = SubResource("RectangleShape2D_ojmo0")
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, 4)
+shape = SubResource("RectangleShape2D_v4i0b")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(6, 4)
+
+[node name="LeftRayCast2D" type="RayCast2D" parent="."]
+position = Vector2(-1, 3)
+target_position = Vector2(-58, 0)
+collision_mask = 2
+
+[node name="RightCast2D" type="RayCast2D" parent="."]
+position = Vector2(-1, 3)
+target_position = Vector2(65, 0)
+collision_mask = 2
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.996
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="body_entered" from="AnimatedSprite2D/AreaDamage" to="." method="_on_area_damage_body_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

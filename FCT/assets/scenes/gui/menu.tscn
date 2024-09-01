@@ -1,0 +1,182 @@
+[gd_scene load_steps=12 format=3 uid="uid://babuyil1hvdo3"]
+
+[ext_resource type="Theme" uid="uid://dr7cctdf03t7a" path="res://assets/scenes/gui/theme_gui.theme" id="1_fmefa"]
+[ext_resource type="Script" path="res://scripts/Menu.gd" id="2_yt4dj"]
+[ext_resource type="Texture2D" uid="uid://47jqyta3m7dy" path="res://assets/textures/TitleImage.png" id="3_6lva8"]
+[ext_resource type="Theme" uid="uid://exqkmve4kjmx" path="res://assets/scenes/gui/GUI.tres" id="4_ijce8"]
+[ext_resource type="FontFile" uid="uid://tlhpf4teewt6" path="res://assets/scenes/gui/PixeloidMono.otf" id="4_jxhao"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_82igd"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kjcxk"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5b5nk"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_6fomf"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_abv5a"]
+
+[sub_resource type="Theme" id="Theme_w0c7o"]
+default_font = ExtResource("4_jxhao")
+default_font_size = 8
+Button/colors/font_color = Color(1, 1, 1, 1)
+Button/colors/font_disabled_color = Color(0.875, 0.875, 0.875, 0.5)
+Button/colors/font_focus_color = Color(1, 0.835294, 0.309804, 1)
+Button/colors/font_hover_color = Color(1, 0.835294, 0.309804, 1)
+Button/colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+Button/colors/font_outline_color = Color(1, 1, 1, 0)
+Button/colors/font_pressed_color = Color(1, 1, 1, 1)
+Button/constants/h_separation = 0
+Button/constants/icon_max_width = 0
+Button/constants/outline_size = 5
+Button/font_sizes/font_size = 12
+Button/styles/disabled = SubResource("StyleBoxEmpty_82igd")
+Button/styles/focus = SubResource("StyleBoxEmpty_kjcxk")
+Button/styles/hover = SubResource("StyleBoxEmpty_5b5nk")
+Button/styles/normal = SubResource("StyleBoxEmpty_6fomf")
+Button/styles/pressed = SubResource("StyleBoxEmpty_abv5a")
+Label/colors/font_color = Color(1, 1, 1, 1)
+Label/colors/font_outline_color = Color(1, 1, 1, 0)
+Label/colors/font_shadow_color = Color(0.478431, 0.478431, 0.478431, 0)
+Label/constants/line_spacing = 3
+Label/constants/outline_size = 4
+Label/constants/shadow_offset_x = 0
+Label/constants/shadow_offset_y = 0
+Label/constants/shadow_outline_size = 0
+Label/font_sizes/font_size = 9
+MarginContainer/constants/margin_bottom = 4
+MarginContainer/constants/margin_left = 4
+MarginContainer/constants/margin_right = 4
+MarginContainer/constants/margin_top = 4
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+theme = ExtResource("1_fmefa")
+script = ExtResource("2_yt4dj")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+z_index = 1
+layout_mode = 0
+offset_left = 205.0
+offset_top = 11.0
+offset_right = 1109.0
+offset_bottom = 651.0
+scale = Vector2(0.228571, 0.208219)
+texture = ExtResource("3_6lva8")
+expand_mode = 3
+stretch_mode = 4
+
+[node name="Color" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+offset_right = 426.0
+offset_bottom = 236.0
+color = Color(0.0313726, 0.0313726, 0.0313726, 1)
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Botones" type="VBoxContainer" parent="."]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.493
+anchor_top = 0.479
+anchor_right = 0.516
+anchor_bottom = 0.479
+offset_left = -194.018
+offset_top = -43.96
+offset_right = -53.816
+offset_bottom = 27.04
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 0.000260114
+theme = ExtResource("1_fmefa")
+
+[node name="Iniciar" type="Button" parent="Botones"]
+layout_mode = 2
+theme = ExtResource("1_fmefa")
+text = "Nueva partida"
+flat = true
+alignment = 0
+
+[node name="Cargar" type="Button" parent="Botones"]
+layout_mode = 2
+text = "Cargar partida"
+flat = true
+alignment = 0
+
+[node name="Salir" type="Button" parent="Botones"]
+layout_mode = 2
+text = "Salir"
+flat = true
+alignment = 0
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+
+[node name="Ranking" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 292.0
+offset_top = 152.0
+offset_right = 416.0
+offset_bottom = 228.0
+theme = SubResource("Theme_w0c7o")
+
+[node name="Label" type="Label" parent="Ranking"]
+layout_mode = 2
+text = "Ranking"
+horizontal_alignment = 1
+
+[node name="ListaJugadores" type="VBoxContainer" parent="Ranking"]
+layout_mode = 2
+theme = ExtResource("4_ijce8")
+alignment = 1
+
+[node name="LoadOptions" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -195.0
+offset_top = -86.0
+offset_right = 55.0
+offset_bottom = -23.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("4_ijce8")
+
+[node name="Load1" type="Button" parent="LoadOptions"]
+layout_mode = 2
+alignment = 0
+
+[node name="Load2" type="Button" parent="LoadOptions"]
+layout_mode = 2
+alignment = 0
+
+[node name="Load3" type="Button" parent="LoadOptions"]
+layout_mode = 2
+alignment = 0
+
+[connection signal="pressed" from="Botones/Iniciar" to="." method="_on_iniciar_pressed"]
+[connection signal="pressed" from="Botones/Cargar" to="." method="_on_cargar_pressed"]
+[connection signal="pressed" from="Botones/Salir" to="." method="_on_salir_pressed"]
+[connection signal="pressed" from="LoadOptions/Load1" to="." method="_on_load_1_pressed"]
+[connection signal="pressed" from="LoadOptions/Load2" to="." method="_on_load_2_pressed"]
+[connection signal="pressed" from="LoadOptions/Load3" to="." method="_on_load_3_pressed"]

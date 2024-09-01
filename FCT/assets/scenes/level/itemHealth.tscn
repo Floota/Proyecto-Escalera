@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://b47jctr12ksgu"]
+
+[ext_resource type="Script" path="res://scripts/itemHealth.gd" id="1_akl3k"]
+[ext_resource type="Texture2D" uid="uid://clytmbebi1nni" path="res://assets/textures/lH.png" id="2_7lndx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xrldj"]
+size = Vector2(6.4037, 12.806)
+
+[node name="ItemHealth" type="Area2D"]
+collision_mask = 3
+script = ExtResource("1_akl3k")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+rotation = -0.382227
+texture = ExtResource("2_7lndx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 2)
+rotation = 1.53951
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_xrldj")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

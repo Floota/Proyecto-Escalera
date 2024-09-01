@@ -1,0 +1,87 @@
+[gd_scene load_steps=5 format=3 uid="uid://bs6p8p0qpp30g"]
+
+[ext_resource type="Script" path="res://scripts/InteractionBox.gd" id="1_ad2x8"]
+[ext_resource type="Theme" uid="uid://pgnyr6t35w1m" path="res://assets/scenes/interaction/Interactiontheme.tres" id="2_s5pij"]
+[ext_resource type="FontFile" uid="uid://tlhpf4teewt6" path="res://assets/scenes/gui/PixeloidMono.otf" id="3_0ok85"]
+[ext_resource type="Theme" uid="uid://dr7cctdf03t7a" path="res://assets/scenes/gui/theme_gui.theme" id="4_aieje"]
+
+[node name="Interaction" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ad2x8")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 128.0
+offset_right = 304.0
+offset_bottom = 304.0
+theme = ExtResource("2_s5pij")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 203.0
+offset_right = 288.0
+offset_bottom = 233.0
+theme = ExtResource("2_s5pij")
+bbcode_enabled = true
+text = "*******"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 107.0
+offset_top = 152.0
+offset_right = 299.0
+offset_bottom = 184.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.239216, 0.239216, 0.239216, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -96.0
+offset_top = -16.0
+offset_right = 96.0
+offset_bottom = 16.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="ColorRect/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_0ok85")
+theme_override_font_sizes/font_size = 9
+text = "¿Quieres entregar las frutas?"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ColorRect/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("4_aieje")
+alignment = 1
+
+[node name="Si" type="Button" parent="ColorRect/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "Si"
+
+[node name="No" type="Button" parent="ColorRect/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "No"
+
+[connection signal="pressed" from="ColorRect/VBoxContainer/HBoxContainer/Si" to="." method="_on_si_pressed"]
+[connection signal="pressed" from="ColorRect/VBoxContainer/HBoxContainer/No" to="." method="_on_no_pressed"]
