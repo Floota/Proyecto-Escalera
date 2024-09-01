@@ -1,0 +1,140 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1718535474
+default_bus_layout.tres::AudioBusLayout::8942993638629783106::1718472511::0::1::::<><>::
+EnemigoHeredador.gd::GDScript::-1::1717953496::0::1::::<>Enemy<>::
+export_presets.cfg::TextFile::-1::1718475542::0::1::::<><>::
+icon.svg::CompressedTexture2D::2365966803307609128::1717953496::1717953496::1::::<><>::
+SecretZone.gd::GDScript::-1::1717953496::0::1::::<>StaticBody2D<>::
+::res://addons/::1717953499
+::res://addons/godot-sqlite/::1717953499
+gdsqlite.gdextension::GDExtension::-1::1717953499::0::1::::<><>::
+godot-sqlite.gd::GDScript::-1::1717953499::0::1::::<>EditorPlugin<>::
+LICENSE.md::TextFile::-1::1717953499::0::1::::<><>::
+plugin.cfg::TextFile::-1::1717953499::0::1::::<><>::
+::res://addons/godot-sqlite/bin/::1718535470
+::res://addons/godot-sqlite/bin/libgdsqlite.macos.template_debug.framework/::1717953500
+::res://addons/godot-sqlite/bin/libgdsqlite.macos.template_release.framework/::1717953500
+::res://assets/::1717953501
+::res://assets/scenes/::1717953500
+escena_juego.gd::GDScript::-1::1717953500::0::1::::<>Node2D<>::
+::res://assets/scenes/enemies/::1718473230
+bullet.tscn::PackedScene::7612329557769972350::1718473230::0::1::::<><>::res://scripts/bullet.gd<>uid://c7nfklxmaxu8m::::res://assets/textures/bullteboss.png
+bullet_enemy.tscn::PackedScene::6348898788423073053::1718473230::0::1::::<><>::res://scripts/Bullet_enemy.gd<>uid://ccupgb2y8x2bb::::res://assets/textures/bullte.png
+e_basico.tscn::PackedScene::6302896258609443586::1718473230::0::1::::<><>::res://scripts/EBasico.gd<>uid://bynfv1ax2k7e2::::res://assets/textures/Enemies.png<>uid://chjf4ssp10ll8::::res://assets/sounds/sfx/EBaseDeath.wav
+e_basicoX2.tscn::PackedScene::6120525266832057741::1717953500::0::1::::<><>::res://scripts/EBasico.gd<>uid://0sustabba1c7::::res://assets/textures/EnemiesHot.png
+e_bullet.tscn::PackedScene::3763627104934787828::1718473230::0::1::::<><>::res://scripts/EProyectil.gd<>uid://cwppo2nkl31qf::::res://assets/scenes/enemies/bullet_enemy.tscn<>uid://bynfv1ax2k7e2::::res://assets/textures/Enemies.png<>uid://m21omrej4p8f::::res://assets/sounds/sfx/Bullet.wav<>uid://dg3so0ksoq2gd::::res://assets/sounds/sfx/EShootDeath.wav
+e_saltarin.tscn::PackedScene::5427008352777135872::1718473230::0::1::::<><>::res://scripts/ESaltarin.gd<>uid://bynfv1ax2k7e2::::res://assets/textures/Enemies.png<>uid://dfwuyxfloe3yl::::res://assets/textures/DirtParticles.png<>uid://ca30peq7vpcoa::::res://assets/sounds/sfx/EJumpDeath.wav
+e_volador.tscn::PackedScene::7576121187857886496::1718473230::0::1::::<><>::res://scripts/EVolador.gd<>uid://bynfv1ax2k7e2::::res://assets/textures/Enemies.png<>uid://dp3c3c8buwf0e::::res://assets/sounds/sfx/EFlyDeath.wav
+mini_boss.tscn::PackedScene::2527637340505447006::1718473228::0::1::::<><>::res://scripts/MiniBoss.gd<>uid://dgpp7qyr0kk7w::::res://assets/scenes/enemies/bullet.tscn<>uid://cwffjq8qf07g1::::res://assets/textures/pruebaBoss.png<>uid://wt7utoslm8uw::::res://assets/textures/muerteBoss.png<>uid://don8jf8tqb76y::::res://assets/sounds/sfx/BossBullet.wav<>uid://civ15m5btkb4p::::res://assets/sounds/sfx/Miniboss.wav
+pincho.tscn::PackedScene::4101928953692247842::1718473230::0::1::::<><>::uid://cx4lr5a44p3j0::::res://assets/textures/pincho.png<>res://scripts/Pincho.gd
+::res://assets/scenes/gui/::1718473230
+camera_2d.tscn::PackedScene::2905467177316736009::1717953500::0::1::::<><>::res://scripts/Camera2D.gd
+GUI.tres::Theme::329226055660810547::1717953500::0::1::::<><>::uid://tlhpf4teewt6::::res://assets/scenes/gui/PixeloidMono.otf
+GUI.tscn::PackedScene::3429023833773838760::1718473228::0::1::::<><>::uid://dr7cctdf03t7a::::res://assets/scenes/gui/theme_gui.theme<>res://scripts/GUI.gd<>uid://d1e1i7fsyke2s::::res://assets/textures/uvas.png<>uid://crchyamgooxco::::res://assets/textures/heart_full.png<>uid://tlhpf4teewt6::::res://assets/scenes/gui/PixeloidMono.otf<>uid://exqkmve4kjmx::::res://assets/scenes/gui/GUI.tres<>uid://gvcmms7gptid::::res://assets/textures/introcircle.png
+menu.tscn::PackedScene::2389742698727362076::1718473228::0::1::::<><>::uid://dr7cctdf03t7a::::res://assets/scenes/gui/theme_gui.theme<>res://scripts/Menu.gd<>uid://47jqyta3m7dy::::res://assets/textures/TitleImage.png<>uid://exqkmve4kjmx::::res://assets/scenes/gui/GUI.tres<>uid://tlhpf4teewt6::::res://assets/scenes/gui/PixeloidMono.otf<>uid://ddlara7r8axe7::::res://assets/sounds/music/10 AM CutandEdited.mp3<>uid://cwt3hg8gwne87::::res://assets/sounds/music/Dentist's Office.mp3<>uid://b5mvefe1p2wp8::::res://assets/sounds/music/Sunset Pier Edited.mp3
+menu_pause.tscn::PackedScene::8598747028857174595::1718473230::0::1::::<><>::res://scripts/MenuPause.gd<>uid://dr7cctdf03t7a::::res://assets/scenes/gui/theme_gui.theme<>uid://exqkmve4kjmx::::res://assets/scenes/gui/GUI.tres
+PixeloidMono.otf::FontFile::1356748298560092029::1717953500::1717953500::1::::<><>::
+theme_gui.theme::Theme::8418658489468884316::1718469413::0::1::::<><>::uid://tlhpf4teewt6::::res://assets/scenes/gui/PixeloidMono.otf
+::res://assets/scenes/interaction/::1718469413
+interaction.tscn::PackedScene::3714786092861892720::1717953500::0::1::::<><>::res://scripts/InteractionBox.gd<>uid://pgnyr6t35w1m::::res://assets/scenes/interaction/Interactiontheme.tres<>uid://tlhpf4teewt6::::res://assets/scenes/gui/PixeloidMono.otf<>uid://dr7cctdf03t7a::::res://assets/scenes/gui/theme_gui.theme
+Interactiontheme.tres::Theme::1066052042742311208::1718469413::0::1::::<><>::uid://c7m4kfrxpv2kv::::res://assets/textures/textbox.png<>uid://tlhpf4teewt6::::res://assets/scenes/gui/PixeloidMono.otf
+::res://assets/scenes/level/::1718473369
+escena_juego.tscn::PackedScene::8973841455868331861::1718473369::0::1::::<><>::res://assets/scenes/escena_juego.gd<>uid://bo4bry6hr77lc::::res://assets/scenes/gui/GUI.tscn<>uid://bpjw6afk2u2oq::::res://assets/textures/Environment.png<>uid://dh30lgtglq2qv::::res://assets/textures/picoPlataforma.png<>uid://dscskf7pnqab::::res://assets/scenes/player/player.tscn<>uid://b7qjd2vc7hmqa::::res://assets/textures/plataforma.png<>uid://16uvw6aljmrp::::res://assets/textures/EnvironmentUnion.png<>uid://bhnovcvgry2cj::::res://assets/scenes/gui/camera_2d.tscn<>uid://cv2f1sjl2epgk::::res://assets/scenes/enemies/e_basico.tscn<>uid://mqd6bfy7b4au::::res://assets/textures/platMarron.png<>uid://bxtd8eq4jcohq::::res://assets/scenes/level/fruit.tscn<>uid://c8o3rke6bf4yj::::res://assets/textures/sign.png<>uid://df66uydiakovo::::res://assets/scenes/enemies/e_volador.tscn<>uid://cjk5bgc3v5bym::::res://assets/scenes/enemies/e_saltarin.tscn<>res://scripts/Plataforma.gd<>uid://cs3gtluesgw5m::::res://assets/textures/plat.png<>uid://bcan22jdsve4m::::res://assets/scenes/enemies/mini_boss.tscn<>uid://btvenhfnkmpvo::::res://assets/scenes/enemies/e_bullet.tscn<>uid://bypaf2gae8whu::::res://assets/scenes/enemies/pincho.tscn<>uid://durkdwaiiygv8::::res://assets/scenes/gui/menu_pause.tscn<>uid://d0m73sc6gp6ec::::res://assets/scenes/npc/gus.tscn<>uid://bs6p8p0qpp30g::::res://assets/scenes/interaction/interaction.tscn<>uid://jrsay8rcvvuo::::res://assets/scenes/npc/godofredo.tscn<>uid://dvs4lqsvt6gn0::::res://assets/scenes/level/itemTime.tscn<>uid://blt7xi0vhaii3::::res://assets/scenes/level/fruitSpecial.tscn<>uid://bxanfq5ngu6o8::::res://assets/scenes/npc/zacarias_iii.tscn<>uid://dexyup4mrnobi::::res://assets/scenes/npc/pepa.tscn<>uid://b1pb3it874npm::::res://assets/scenes/level/secretArea.tscn<>uid://b47jctr12ksgu::::res://assets/scenes/level/itemHealth.tscn<>uid://db6n542cjck10::::res://assets/sounds/music/Bit Shift.mp3
+fruit.tscn::PackedScene::4040228583012163190::1718473230::0::1::::<><>::res://scripts/fruit.gd<>uid://d1e1i7fsyke2s::::res://assets/textures/uvas.png<>uid://7t6f6q2kh0ay::::res://assets/sounds/sfx/Fruit collect 1.wav
+fruitSpecial.tscn::PackedScene::3199705617837351836::1718473230::0::1::::<><>::res://scripts/fruitSpecial.gd<>uid://c5lg117vgd0xw::::res://assets/textures/fruitSpecial.png<>uid://fhrwd2w0dsda::::res://assets/sounds/sfx/Super Fruit Pickup.wav
+itemHealth.tscn::PackedScene::4488508287271804968::1718473230::0::1::::<><>::res://scripts/itemHealth.gd<>uid://clytmbebi1nni::::res://assets/textures/lH.png<>uid://bgw1lp2dwf4av::::res://assets/sounds/sfx/Time Health 1.wav
+itemTime.tscn::PackedScene::8672167872735082419::1718473230::0::1::::<><>::res://scripts/itemTime.gd<>uid://lw2jg0xbcxt8::::res://assets/textures/IT.png<>uid://bgw1lp2dwf4av::::res://assets/sounds/sfx/Time Health 1.wav
+Plataforma 8.gd::GDScript::-1::1717953500::0::1::::<>StaticBody2D<>::
+secretArea.tscn::PackedScene::4242407454896315398::1718473230::0::1::::<><>::res://SecretZone.gd
+::res://assets/scenes/npc/::1717953500
+godofredo.tscn::PackedScene::667888232745978418::1717953500::0::1::::<><>::res://scripts/NPC.gd<>uid://crdbhyqlac47b::::res://assets/textures/npc2.png
+gus.tscn::PackedScene::8940749571003747134::1717953500::0::1::::<><>::res://scripts/NPC.gd<>uid://1sglmgjw0upq::::res://assets/textures/npc1.png
+pepa.tscn::PackedScene::7488991870897350810::1717953500::0::1::::<><>::res://scripts/NPC.gd<>uid://dyxpl1b5aai6m::::res://assets/textures/npc4.png
+zacarias_iii.tscn::PackedScene::4001563224560570137::1717953500::0::1::::<><>::res://scripts/NPC.gd<>uid://di5wgpdsem3h4::::res://assets/textures/npc3.png
+::res://assets/scenes/player/::1718473228
+player.tscn::PackedScene::247879443195025753::1718473228::0::1::::<><>::res://scripts/player.gd<>uid://bv4i32fvx421f::::res://assets/textures/TopoJugador.png<>uid://bve487xty8j1r::::res://assets/sounds/sfx/Jump 1.wav<>uid://4pgs8rf1pc6r::::res://assets/sounds/sfx/Hit 1.wav<>uid://j2lrhulhxgph::::res://assets/sounds/sfx/Slash.wav
+::res://assets/sounds/::1717953500
+default_bus_layout.tres::AudioBusLayout::363688281622469007::1717953500::0::1::::<><>::
+::res://assets/sounds/music/::1717953500
+10 AM CutandEdited.mp3::AudioStreamMP3::7392567146034710452::1717953500::1717953500::1::::<><>::
+Bit Shift.mp3::AudioStreamMP3::7294291064806161877::1717953500::1717953500::1::::<><>::
+Dentist's Office.mp3::AudioStreamMP3::6357932047526020826::1717953500::1717953500::1::::<><>::
+Sunset Pier Edited.mp3::AudioStreamMP3::4518140995904926847::1717953500::1717953500::1::::<><>::
+::res://assets/sounds/sfx/::1717953501
+BossBullet.wav::AudioStreamWAV::8170762820200999262::1717953500::1717953500::1::::<><>::
+Bullet.wav::AudioStreamWAV::899608622679402971::1717953500::1717953500::1::::<><>::
+EBaseDeath.wav::AudioStreamWAV::5283099019570094987::1717953500::1717953500::1::::<><>::
+EFlyDeath.wav::AudioStreamWAV::8270068875076612154::1717953500::1717953500::1::::<><>::
+EJumpDeath.wav::AudioStreamWAV::4832188892520471084::1717953500::1717953500::1::::<><>::
+EShootDeath.wav::AudioStreamWAV::7639316926374640475::1717953500::1717953500::1::::<><>::
+Fruit collect 1.wav::AudioStreamWAV::2287158983670605876::1717953500::1717953500::1::::<><>::
+Hit 1.wav::AudioStreamWAV::2066840337855467311::1717953500::1717953500::1::::<><>::
+Jump 1.wav::AudioStreamWAV::3870465352271468881::1717953500::1717953500::1::::<><>::
+Miniboss.wav::AudioStreamWAV::5379336941650346637::1717953500::1717953501::1::::<><>::
+MinibossDMG.wav::AudioStreamWAV::2970556640118599870::1717953501::1717953501::1::::<><>::
+Slash.wav::AudioStreamWAV::688136436588314533::1717953501::1717953501::1::::<><>::
+Super Fruit Pickup.wav::AudioStreamWAV::366466539124414166::1717953501::1717953501::1::::<><>::
+Time Health 1.wav::AudioStreamWAV::2854569171381399473::1717953501::1717953501::1::::<><>::
+::res://assets/textures/::1717953501
+bullte.png::CompressedTexture2D::4955428174766942615::1717953501::1717953501::1::::<><>::
+bullteboss.png::CompressedTexture2D::7046043331342403254::1717953501::1717953501::1::::<><>::
+Dialog.png::CompressedTexture2D::3946012929898353204::1717953501::1717953501::1::::<><>::
+DirtParticles.png::CompressedTexture2D::7556880995047591115::1717953501::1717953501::1::::<><>::
+Enemies.png::CompressedTexture2D::4098132295133120259::1717953501::1717953501::1::::<><>::
+EnemiesHot.png::CompressedTexture2D::1793127372659957628::1717953501::1717953501::1::::<><>::
+Environment.png::CompressedTexture2D::3459223879717313960::1717953501::1717953501::1::::<><>::
+EnvironmentUnion.png::CompressedTexture2D::1890158689909735097::1717953501::1717953501::1::::<><>::
+fruitSpecial.png::CompressedTexture2D::6901626980423111840::1717953501::1717953501::1::::<><>::
+GUIDialog.png::CompressedTexture2D::8461184024039309392::1717953501::1717953501::1::::<><>::
+heart_empty.png::CompressedTexture2D::2407001990526073649::1717953501::1717953501::1::::<><>::
+heart_full.png::CompressedTexture2D::5970648361573506110::1717953501::1717953501::1::::<><>::
+heart_half.png::CompressedTexture2D::6854614982155458327::1717953501::1717953501::1::::<><>::
+introcircle.png::CompressedTexture2D::464628517725085879::1717953501::1717953501::1::::<><>::
+IT.png::CompressedTexture2D::819149376364178115::1717953501::1717953501::1::::<><>::
+lH.png::CompressedTexture2D::5595638824651145830::1717953501::1717953501::1::::<><>::
+lombrizTime .png::CompressedTexture2D::8989390864432055905::1717953501::1717953501::1::::<><>::
+lombrizVida.png::CompressedTexture2D::1613187048130234646::1717953501::1717953501::1::::<><>::
+menu.jpg::CompressedTexture2D::1199717823951868430::1717953501::1717953501::1::::<><>::
+muerteBoss.png::CompressedTexture2D::1585357417414435346::1717953501::1717953501::1::::<><>::
+npc1.png::CompressedTexture2D::1862453319839823270::1717953501::1717953501::1::::<><>::
+npc2.png::CompressedTexture2D::5972319345822209701::1717953501::1717953501::1::::<><>::
+npc3.png::CompressedTexture2D::7784051414717999771::1717953501::1717953501::1::::<><>::
+npc4.png::CompressedTexture2D::8892206753874887242::1717953501::1717953501::1::::<><>::
+picoPlataforma.png::CompressedTexture2D::7709924446990676689::1717953501::1717953501::1::::<><>::
+pincho.png::CompressedTexture2D::6447751548403002403::1717953501::1717953501::1::::<><>::
+plat.png::CompressedTexture2D::6094441970884248496::1717953501::1717953501::1::::<><>::
+plataforma.png::CompressedTexture2D::4666046985196976392::1717953501::1717953501::1::::<><>::
+platMarron.png::CompressedTexture2D::875533739691354192::1717953501::1717953501::1::::<><>::
+Player.png::CompressedTexture2D::78319219762561884::1717953501::1717953501::1::::<><>::
+pruebaBoss.png::CompressedTexture2D::6327638365389006142::1717953501::1717953501::1::::<><>::
+sign.png::CompressedTexture2D::7119705463114736325::1717953501::1717953501::1::::<><>::
+textbox.png::CompressedTexture2D::7045435837525574669::1717953501::1717953501::1::::<><>::
+TitleImage.png::CompressedTexture2D::2102112869219842014::1717953501::1717953501::1::::<><>::
+TopoJugador.png::CompressedTexture2D::3920790519971510941::1717953501::1717953501::1::::<><>::
+uvas.png::CompressedTexture2D::8994024114169086472::1717953501::1717953501::1::::<><>::
+::res://scripts/::1718471829
+bullet.gd::GDScript::-1::1717953501::0::1::::<>Area2D<>::
+Bullet_enemy.gd::GDScript::-1::1717955323::0::1::::<>CharacterBody2D<>::
+Camera2D.gd::GDScript::-1::1718469413::0::1::::<>Camera2D<>::
+EBasico.gd::GDScript::-1::1717953501::0::1::::<>Enemy<>::
+EnemyManager.gd::GDScript::-1::1717953501::0::1::::Enemy<>CharacterBody2D<>::
+EProyectil.gd::GDScript::-1::1718469413::0::1::::<>Enemy<>::
+ESaltarin.gd::GDScript::-1::1717954665::0::1::::<>Enemy<>::
+EVolador.gd::GDScript::-1::1717953501::0::1::::<>Enemy<>::
+Exit.gd::GDScript::-1::1717953501::0::1::::<>Button<>::
+fruit.gd::GDScript::-1::1717953501::0::1::::<>ItemManager<>::
+fruitSpecial.gd::GDScript::-1::1717953501::0::1::::<>ItemManager<>::
+global.gd::GDScript::-1::1718464296::0::1::::<>Node<>::
+GUI.gd::GDScript::-1::1718471829::0::1::::GUI<>CanvasLayer<>::
+InteractionBox.gd::GDScript::-1::1717954454::0::1::::InteractionBox<>Control<>::
+itemHealth.gd::GDScript::-1::1717953501::0::1::::<>ItemManager<>::
+ItemManager.gd::GDScript::-1::1717954471::0::1::::ItemManager<>Area2D<>::
+itemTime.gd::GDScript::-1::1717953501::0::1::::<>ItemManager<>::
+Menu.gd::GDScript::-1::1717955265::0::1::::<>Control<>::
+MenuPause.gd::GDScript::-1::1718464695::0::1::::<>CanvasLayer<>::
+MiniBoss.gd::GDScript::-1::1717954589::0::1::::<>Enemy<>::
+NPC.gd::GDScript::-1::1717954601::0::1::::<>CharacterBody2D<>::
+Pincho.gd::GDScript::-1::1717953501::0::1::::<>Node2D<>::
+Plataforma.gd::GDScript::-1::1717953501::0::1::::<>StaticBody2D<>::
+player.gd::GDScript::-1::1717953501::0::1::::Player<>CharacterBody2D<>::
+SQLManager.gd::GDScript::-1::1718467462::0::1::::<>Node<>::

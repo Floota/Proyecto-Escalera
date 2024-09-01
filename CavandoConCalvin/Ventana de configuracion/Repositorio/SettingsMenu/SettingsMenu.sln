@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettingsMenu", "SettingsMenu\SettingsMenu.csproj", "{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CavandoConCalvin|Any CPU = CavandoConCalvin|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}.CavandoConCalvin|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}.CavandoConCalvin|Any CPU.Build.0 = Debug|Any CPU
+		{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF2E2A83-51A9-4B4F-AC7D-12ED43880B45}
+	EndGlobalSection
+EndGlobal

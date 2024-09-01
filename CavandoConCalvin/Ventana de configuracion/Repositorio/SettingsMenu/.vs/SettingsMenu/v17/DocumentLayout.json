@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}|SettingsMenu\\SettingsMenu.csproj|c:\\users\\elena\\desktop\\cavandoconcalvin\\ventana de configuracion\\repositorio\\settingsmenu\\settingsmenu\\controlador\\controladorarchivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}|SettingsMenu\\SettingsMenu.csproj|solutionrelative:settingsmenu\\controlador\\controladorarchivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}|SettingsMenu\\SettingsMenu.csproj|C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\settingsmenu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}|SettingsMenu\\SettingsMenu.csproj|solutionrelative:settingsmenu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}|SettingsMenu\\SettingsMenu.csproj|c:\\users\\elena\\desktop\\cavandoconcalvin\\ventana de configuracion\\repositorio\\settingsmenu\\settingsmenu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}|SettingsMenu\\SettingsMenu.csproj|solutionrelative:settingsmenu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SettingsMenu||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}|SettingsMenu\\SettingsMenu.csproj|C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\settingsmenu\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}|SettingsMenu\\SettingsMenu.csproj|solutionrelative:settingsmenu\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}|SettingsMenu\\SettingsMenu.csproj|C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\settingsmenu\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}|SettingsMenu\\SettingsMenu.csproj|solutionrelative:settingsmenu\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}|SettingsMenu\\SettingsMenu.csproj|C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\settingsmenu\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}|SettingsMenu\\SettingsMenu.csproj|solutionrelative:settingsmenu\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}|SettingsMenu\\SettingsMenu.csproj|C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\settingsmenu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}|SettingsMenu\\SettingsMenu.csproj|solutionrelative:settingsmenu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}|SettingsMenu\\SettingsMenu.csproj|C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\settingsmenu\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FA9600F0-5EAE-424A-AEF1-9BE3726FEAD1}|SettingsMenu\\SettingsMenu.csproj|solutionrelative:settingsmenu\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SettingsMenu",
+              "DocumentMoniker": "C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\SettingsMenu\\SettingsMenu.csproj",
+              "RelativeDocumentMoniker": "SettingsMenu\\SettingsMenu.csproj",
+              "ToolTip": "C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\SettingsMenu\\SettingsMenu.csproj",
+              "RelativeToolTip": "SettingsMenu\\SettingsMenu.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-31T09:15:28.026Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ControladorArchivos.cs",
+              "DocumentMoniker": "C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\SettingsMenu\\Controlador\\ControladorArchivos.cs",
+              "RelativeDocumentMoniker": "SettingsMenu\\Controlador\\ControladorArchivos.cs",
+              "ToolTip": "C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\SettingsMenu\\Controlador\\ControladorArchivos.cs",
+              "RelativeToolTip": "SettingsMenu\\Controlador\\ControladorArchivos.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T22:03:55.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\SettingsMenu\\Form1.cs",
+              "RelativeDocumentMoniker": "SettingsMenu\\Form1.cs",
+              "ToolTip": "C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\SettingsMenu\\Form1.cs",
+              "RelativeToolTip": "SettingsMenu\\Form1.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAA7wDwAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T16:36:54.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\SettingsMenu\\App.config",
+              "RelativeDocumentMoniker": "SettingsMenu\\App.config",
+              "ToolTip": "C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\SettingsMenu\\App.config",
+              "RelativeToolTip": "SettingsMenu\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-31T09:17:57.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\SettingsMenu\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "SettingsMenu\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\SettingsMenu\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "SettingsMenu\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T09:18:14.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\SettingsMenu\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "SettingsMenu\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\SettingsMenu\\Form1.Designer.cs",
+              "RelativeToolTip": "SettingsMenu\\Form1.Designer.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAiwDwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T09:17:54.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\SettingsMenu\\Form1.resx",
+              "RelativeDocumentMoniker": "SettingsMenu\\Form1.resx",
+              "ToolTip": "C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\SettingsMenu\\Form1.resx",
+              "RelativeToolTip": "SettingsMenu\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-05-31T09:17:52.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\SettingsMenu\\Program.cs",
+              "RelativeDocumentMoniker": "SettingsMenu\\Program.cs",
+              "ToolTip": "C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\SettingsMenu\\Program.cs",
+              "RelativeToolTip": "SettingsMenu\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T09:15:43.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\SettingsMenu\\Form1.cs",
+              "RelativeDocumentMoniker": "SettingsMenu\\Form1.cs",
+              "ToolTip": "C:\\Users\\elena\\Desktop\\CavandoConCalvin\\Ventana de configuracion\\Repositorio\\SettingsMenu\\SettingsMenu\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SettingsMenu\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T16:32:27.994Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

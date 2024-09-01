@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://blt7xi0vhaii3"]
+
+[ext_resource type="Script" path="res://scripts/fruitSpecial.gd" id="1_vnhbl"]
+[ext_resource type="Texture2D" uid="uid://c5lg117vgd0xw" path="res://assets/textures/fruitSpecial.png" id="2_spyol"]
+[ext_resource type="AudioStream" uid="uid://fhrwd2w0dsda" path="res://assets/sounds/sfx/Super Fruit Pickup.wav" id="3_kj526"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_y7co3"]
+radius = 7.28011
+
+[node name="FruitSpecial" type="Area2D"]
+collision_mask = 3
+script = ExtResource("1_vnhbl")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_spyol")
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+rotation = 0.939795
+shape = SubResource("CircleShape2D_y7co3")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_kj526")
+volume_db = -8.652
+pitch_scale = 1.2
+max_polyphony = 3
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

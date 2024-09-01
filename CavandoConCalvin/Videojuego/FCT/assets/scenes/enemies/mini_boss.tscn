@@ -1,0 +1,166 @@
+[gd_scene load_steps=22 format=3 uid="uid://bcan22jdsve4m"]
+
+[ext_resource type="Script" path="res://scripts/MiniBoss.gd" id="1_sgal0"]
+[ext_resource type="PackedScene" uid="uid://dgpp7qyr0kk7w" path="res://assets/scenes/enemies/bullet.tscn" id="2_aydyo"]
+[ext_resource type="Texture2D" uid="uid://cwffjq8qf07g1" path="res://assets/textures/pruebaBoss.png" id="2_pp3cs"]
+[ext_resource type="Texture2D" uid="uid://wt7utoslm8uw" path="res://assets/textures/muerteBoss.png" id="3_1unsv"]
+[ext_resource type="AudioStream" uid="uid://don8jf8tqb76y" path="res://assets/sounds/sfx/BossBullet.wav" id="5_i6eel"]
+[ext_resource type="AudioStream" uid="uid://civ15m5btkb4p" path="res://assets/sounds/sfx/Miniboss.wav" id="5_x2ma4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_16v07"]
+atlas = ExtResource("3_1unsv")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pl0vt"]
+atlas = ExtResource("3_1unsv")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pvand"]
+atlas = ExtResource("3_1unsv")
+region = Rect2(0, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j6g7c"]
+atlas = ExtResource("3_1unsv")
+region = Rect2(16, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8k2tc"]
+atlas = ExtResource("3_1unsv")
+region = Rect2(32, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vj7af"]
+atlas = ExtResource("3_1unsv")
+region = Rect2(0, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ylp6r"]
+atlas = ExtResource("3_1unsv")
+region = Rect2(16, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rj0w0"]
+atlas = ExtResource("3_1unsv")
+region = Rect2(32, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h5jfm"]
+atlas = ExtResource("2_pp3cs")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fit04"]
+atlas = ExtResource("2_pp3cs")
+region = Rect2(0, 16, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_b8fs3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_16v07")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pl0vt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pvand")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j6g7c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8k2tc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vj7af")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ylp6r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rj0w0")
+}],
+"loop": false,
+"name": &"death",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h5jfm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fit04")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3wkqr"]
+radius = 7.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0n1pr"]
+radius = 33.0
+height = 124.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_bmdh3"]
+radius = 6.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_t8ro4"]
+radius = 8.0
+
+[node name="MiniBoss" type="CharacterBody2D" groups=["Enemy"]]
+collision_layer = 4
+collision_mask = 3
+script = ExtResource("1_sgal0")
+bullet_scene = ExtResource("2_aydyo")
+health = 2
+score = 200
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_b8fs3")
+animation = &"death"
+autoplay = "idle"
+frame = 7
+frame_progress = 1.0
+
+[node name="HitboxArea" type="Area2D" parent="."]
+collision_layer = 4
+collision_mask = 2
+
+[node name="HitboxShape" type="CollisionShape2D" parent="HitboxArea"]
+shape = SubResource("CircleShape2D_3wkqr")
+
+[node name="AggroArea" type="Area2D" parent="."]
+collision_layer = 4
+collision_mask = 2
+
+[node name="AggroAreaShape" type="CollisionShape2D" parent="AggroArea"]
+position = Vector2(0, 11)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_0n1pr")
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_bmdh3")
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(0, 7)
+
+[node name="HurtboxArea" type="Area2D" parent="."]
+collision_mask = 8
+
+[node name="HurtboxShape" type="CollisionShape2D" parent="HurtboxArea"]
+shape = SubResource("CircleShape2D_t8ro4")
+
+[node name="BulletSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_i6eel")
+volume_db = -8.391
+pitch_scale = 0.7
+
+[node name="ScreechSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_x2ma4")
+volume_db = -20.652
+pitch_scale = 0.5
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="body_entered" from="HitboxArea" to="." method="_on_hitbox_area_body_entered"]
+[connection signal="body_entered" from="AggroArea" to="." method="_on_area_follow_body_entered"]
+[connection signal="body_exited" from="AggroArea" to="." method="_on_area_follow_body_exited"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="area_entered" from="HurtboxArea" to="." method="_on_hurtbox_area_area_entered"]

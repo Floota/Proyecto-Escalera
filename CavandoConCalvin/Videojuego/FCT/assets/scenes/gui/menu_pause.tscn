@@ -1,0 +1,117 @@
+[gd_scene load_steps=4 format=3 uid="uid://durkdwaiiygv8"]
+
+[ext_resource type="Script" path="res://scripts/MenuPause.gd" id="1_f5wr3"]
+[ext_resource type="Theme" uid="uid://dr7cctdf03t7a" path="res://assets/scenes/gui/theme_gui.theme" id="2_phqar"]
+[ext_resource type="Theme" uid="uid://exqkmve4kjmx" path="res://assets/scenes/gui/GUI.tres" id="3_07lir"]
+
+[node name="MenuPause" type="CanvasLayer"]
+script = ExtResource("1_f5wr3")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+process_mode = 3
+offset_right = 426.0
+offset_bottom = 240.0
+color = Color(0.0862745, 0.0862745, 0.0862745, 0.572549)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50.5
+offset_top = -61.0
+offset_right = 50.5
+offset_bottom = 61.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_phqar")
+
+[node name="TextureRect" type="Label" parent="ColorRect/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_phqar")
+theme_override_font_sizes/font_size = 20
+text = "PAUSADO"
+horizontal_alignment = 1
+
+[node name="Resume" type="Button" parent="ColorRect/VBoxContainer"]
+layout_mode = 2
+focus_neighbor_top = NodePath("../Exit")
+focus_neighbor_bottom = NodePath("../Save")
+text = "Volver"
+
+[node name="Save" type="Button" parent="ColorRect/VBoxContainer"]
+layout_mode = 2
+focus_neighbor_top = NodePath("../Resume")
+focus_neighbor_bottom = NodePath("../Exit")
+text = "Guardar"
+
+[node name="Exit" type="Button" parent="ColorRect/VBoxContainer"]
+layout_mode = 2
+focus_neighbor_top = NodePath("../Save")
+focus_neighbor_bottom = NodePath("../Resume")
+text = "Salir"
+
+[node name="SaveOptions" type="VBoxContainer" parent="ColorRect"]
+process_mode = 3
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -155.0
+offset_top = -70.0
+offset_right = 161.0
+offset_bottom = -8.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("3_07lir")
+alignment = 1
+
+[node name="Slot1" type="Button" parent="ColorRect/SaveOptions"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Slot2" type="Button" parent="ColorRect/SaveOptions"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Slot3" type="Button" parent="ColorRect/SaveOptions"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="OptionsSlot" type="HBoxContainer" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -169.0
+offset_top = 26.0
+offset_right = -53.0
+offset_bottom = 45.0
+grow_horizontal = 0
+grow_vertical = 2
+theme = ExtResource("3_07lir")
+
+[node name="Update" type="Button" parent="ColorRect/OptionsSlot"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Actualizar"
+
+[node name="Delete" type="Button" parent="ColorRect/OptionsSlot"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Borrar"
+
+[connection signal="pressed" from="ColorRect/VBoxContainer/Resume" to="." method="_on_resume_pressed"]
+[connection signal="pressed" from="ColorRect/VBoxContainer/Save" to="." method="_on_save_pressed"]
+[connection signal="pressed" from="ColorRect/VBoxContainer/Exit" to="." method="_on_exit_pressed"]
+[connection signal="pressed" from="ColorRect/SaveOptions/Slot1" to="." method="_on_slot_1_pressed"]
+[connection signal="pressed" from="ColorRect/SaveOptions/Slot2" to="." method="_on_slot_2_pressed"]
+[connection signal="pressed" from="ColorRect/SaveOptions/Slot3" to="." method="_on_slot_3_pressed"]
+[connection signal="pressed" from="ColorRect/OptionsSlot/Update" to="." method="_on_update_pressed"]
+[connection signal="pressed" from="ColorRect/OptionsSlot/Delete" to="." method="_on_delete_pressed"]

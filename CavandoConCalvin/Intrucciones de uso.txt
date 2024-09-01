@@ -1,0 +1,19 @@
+﻿El ejecutable principal del juego es SettingsMenu.exe dentro de la carpeta de "Ejecutables"
+Carpeta "Ventana de configuracion", se encuentra el proyecto de Visual Studio.
+Carpeta "Videojuego", donde se encuentra el proyecto del videojuego en GODOT
+
+
+Objetivo del juego:
+	-Recolectar 15 frutas antes de que se acabe el tiempo.
+
+Informacion adicional:
+	-Hay otros coleccionables de vida (gusanos rojos) y tiempo (gusanos amarillos).
+	-Zonas secretas por el mapa (la tierra es de color rojo)
+	-Npcs que puedes intercambiar frutas especiales por otras cosas o te abren nueva zona de mapa.
+	
+Controles de jugador:
+	-Movimiento: Teclas de dirección
+	-Ataque: Tecla "E"
+	-Abrir/Cerrar dialogo: Tecla "F"
+	-Pasar dialogo: Tecla "V"
+	-Saltar: Tecla "Space"

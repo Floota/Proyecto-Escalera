@@ -1,0 +1,45 @@
+[gd_scene load_steps=7 format=3 uid="uid://bxanfq5ngu6o8"]
+
+[ext_resource type="Script" path="res://scripts/NPC.gd" id="1_rnj6w"]
+[ext_resource type="Texture2D" uid="uid://di5wgpdsem3h4" path="res://assets/textures/npc3.png" id="2_t4or3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dskc1"]
+atlas = ExtResource("2_t4or3")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cgvu8"]
+atlas = ExtResource("2_t4or3")
+region = Rect2(0, 16, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2w6yf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dskc1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cgvu8")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h8rhi"]
+size = Vector2(13, 16)
+
+[node name="ZacariasIII" type="CharacterBody2D" groups=["NPC"]]
+collision_layer = 16
+collision_mask = 2
+script = ExtResource("1_rnj6w")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-1, 0)
+sprite_frames = SubResource("SpriteFrames_2w6yf")
+animation = &"idle"
+autoplay = "idle"
+flip_h = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 0)
+shape = SubResource("RectangleShape2D_h8rhi")

@@ -1,0 +1,105 @@
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.csproj.AssemblyReference.cache
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.Form1.resources
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.csproj.GenerateResource.cache
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\SettingsMenu.exe.config
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\SettingsMenu.exe
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\SettingsMenu.pdb
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.Properties.Resources.resources
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.csproj.CoreCompileInputs.cache
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.exe
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.pdb
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\System.Buffers.dll
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\System.Memory.dll
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\System.Text.Json.dll
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\System.ValueTuple.dll
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\System.Buffers.xml
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\System.Memory.xml
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\System.Text.Json.xml
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\System.ValueTuple.xml
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\obj\Debug\Settings.CD231A3B.Up2Date
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\PixeloidMono.otf
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\Resources\PixeloidMono.ttf
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\Calvin.console.exe
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\Calvin.exe
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\libgdsqlite.windows.template_debug.x86_64.dll
+C:\Users\elena\source\repos\SettingsMenu\SettingsMenu\bin\Debug\Calvin.pck
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\Calvin.console.exe
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\Calvin.exe
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\libgdsqlite.windows.template_debug.x86_64.dll
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\Calvin.pck
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\PixeloidMono.otf
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\Resources\PixeloidMono.ttf
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\SettingsMenu.exe.config
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\SettingsMenu.exe
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\SettingsMenu.pdb
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Buffers.dll
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Memory.dll
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Text.Json.dll
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.ValueTuple.dll
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Buffers.xml
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Memory.xml
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Text.Json.xml
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.ValueTuple.xml
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.csproj.AssemblyReference.cache
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.Form1.resources
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.Properties.Resources.resources
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.csproj.GenerateResource.cache
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.csproj.CoreCompileInputs.cache
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\obj\Debug\Settings.CD231A3B.Up2Date
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.exe
+C:\Users\elena\Desktop\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.pdb
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.csproj.AssemblyReference.cache
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.Form1.resources
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.Properties.Resources.resources
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.csproj.GenerateResource.cache
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.csproj.CoreCompileInputs.cache
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.exe
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.pdb
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\Calvin.console.exe
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\Calvin.exe
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\libgdsqlite.windows.template_debug.x86_64.dll
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\Calvin.pck
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\PixeloidMono.otf
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\Resources\PixeloidMono.ttf
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\SettingsMenu.exe.config
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\SettingsMenu.exe
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\SettingsMenu.pdb
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Buffers.dll
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Memory.dll
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Numerics.Vectors.dll
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Text.Encodings.Web.dll
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Text.Json.dll
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.ValueTuple.dll
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Buffers.xml
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Memory.xml
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Numerics.Vectors.xml
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Text.Encodings.Web.xml
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Text.Json.xml
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\bin\Debug\System.ValueTuple.xml
+F:\Dowloads\CavandoConCalvin\Ventana de configuracion\Repositorio\SettingsMenu\SettingsMenu\obj\Debug\SettingsMenu.csproj.CopyComplete

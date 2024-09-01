@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://bxtd8eq4jcohq"]
+
+[ext_resource type="Script" path="res://scripts/fruit.gd" id="1_svgya"]
+[ext_resource type="Texture2D" uid="uid://d1e1i7fsyke2s" path="res://assets/textures/uvas.png" id="2_kwwi6"]
+[ext_resource type="AudioStream" uid="uid://7t6f6q2kh0ay" path="res://assets/sounds/sfx/Fruit collect 1.wav" id="3_miq5g"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mcrki"]
+radius = 5.58956
+height = 15.5888
+
+[node name="Fruit" type="Area2D"]
+collision_mask = 3
+script = ExtResource("1_svgya")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_kwwi6")
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(-2, 1)
+rotation = 0.939795
+shape = SubResource("CapsuleShape2D_mcrki")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_miq5g")
+volume_db = -9.043
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="finished" from="AudioStreamPlayer" to="." method="_on_audio_stream_player_finished"]

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://db6n542cjck10"
+path="res://.godot/imported/Bit Shift.mp3-1f38d69f540c0753f83be5cf3ee0da02.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/music/Bit Shift.mp3"
+dest_files=["res://.godot/imported/Bit Shift.mp3-1f38d69f540c0753f83be5cf3ee0da02.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
